@@ -1,0 +1,122 @@
+body{
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Encabezado de las redes sociales */
+.encabezado{
+    background-color: #82d38f;
+    height: 150px;
+}
+/* Diseñando las redes sociales */
+.redes-sociales{
+    background-color: bisque;
+    display: flex;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales i{
+    font-size: 20px;
+    padding: 10px 10px;
+    color: black;
+}
+
+.redes-sociales i:hover{
+    font-size: 30px;
+    color: rgb(212, 24, 24);
+}
+/* Fin de diseño las redes sociales */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* Diseñando la pagina personal */
+.soporte{
+    width: 1080px;
+    height: 550px;
+    width: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.derecha{
+    width: 450px;
+    height: 550px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.derecha h1{
+   color: #0e0d0d;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin: 10px 10px;
+}
+.derecha h2{
+   color: #0c0c0c; 
+   font-size: 30px;
+   margin: 0;
+   padding: 0;
+}
+.derecha p{
+   color: #0e0d0d; 
+   font-size: 18px;
+   text-align: center;
+   width: 450px;
+}
+.derecha img{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.izquierda{
+    background-color: rgb(174, 219, 9);
+    width: 600px;
+    height: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Fin de diseño LA PAGINA PERSONAl */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* -------------------------------- */
+/* Diseñando la PRODUCTOS */
+
+.articulos{
+    width: 1500px;
+    background-color: #82d38f;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.producto{
+    background-color: chartreuse;
+    width: 350px;
+    height: 500px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
